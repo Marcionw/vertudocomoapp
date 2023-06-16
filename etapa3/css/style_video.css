@@ -1,0 +1,801 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Monda|Offside|PT+Sans:400,700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap");
+
+/* CSS Document */
+.container {
+  max-width: 980px;
+}
+
+.containerfb {
+  max-width: 980px;
+}
+
+hr.white {
+  border: 0;
+  height: 2px;
+  background: -webkit-linear-gradient(left, white, rgba(0, 0, 0, 0));
+}
+
+hr.white-2 {
+  border: 0;
+  height: 1px;
+  background: -webkit-linear-gradient(left,
+      rgba(0, 0, 0, 0),
+      white,
+      rgba(0, 0, 0, 0));
+  margin-top: 0;
+}
+
+#checkmark {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #21db8c;
+  border-radius: 50%;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+#checkmark:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 9px;
+  background-color: #ffffff;
+  left: 11px;
+  top: 6px;
+}
+
+#checkmark:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #ffffff;
+  left: 8px;
+  top: 12px;
+}
+
+.blackweek {
+  background: rgba(76, 175, 80, 0.0);
+}
+
+#wp {
+  max-width: 30%;
+}
+
+/* -------------------HEADER--------------------- */
+
+.logo-head {
+  margin: 20px 0 20px;
+}
+
+.logo-head img {
+  width: 250px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 40%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cta-video {
+  font-family: "monda";
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(0, 95, 13);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 30px 0 35px;
+  cursor: pointer;
+  max-width: 100%;
+  color: white;
+  background: #14cc00;
+  box-shadow: 0 0 0 0 rgba(68, 255, 108, 0.7);
+  background-color: #14cc00;
+  cursor: pointer;
+  -webkit-animation: pulse 3.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 3.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 3.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 3.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+
+.cta-video:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+/* -------------------COUNTDOWN--------------------- */
+
+/* -------------------COUNTDOWN--------------------- */
+
+.countdown {
+  margin: 60px 0 100px;
+}
+
+.countdown img {
+  width: 400px;
+}
+
+.countdown p {
+  font-family: "Monda";
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+/* -------------------COUNTDOWN--------------------- */
+
+.sc-clock-embed {
+  padding: 0 !important;
+}
+
+.modulos h1 {
+  font-family: "Monda";
+  font-size: 45px;
+  color: #2a844d;
+  text-transform: uppercase;
+}
+
+.prices h1 {
+  font-family: "Monda";
+  font-size: 45px;
+  color: #2a844d;
+  text-transform: uppercase;
+}
+
+.sub {
+  font-family: "Monda";
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.modulos-wrap {
+  margin: 10px 0 0 0;
+}
+
+.card-image {
+  min-height: 150px;
+  padding-top: 5px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.cinfo {
+  background-color: #29844d;
+  border-radius: 10px;
+  margin: 4% auto;
+  padding: 3px 30px;
+  min-height: 420px;
+  min-width: 295px;
+}
+
+.cards {
+  background-color: #080808;
+  border-radius: 10px;
+  margin: 4% auto;
+  padding: 3px 30px;
+  min-height: 420px;
+  min-width: 295px;
+}
+
+.cards h2 {
+  font-family: "Monda";
+  font-size: 22px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.cards h3 {
+  font-family: "Monda";
+  font-size: 20px;
+  color: #2a844d;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.cards p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #cfcfcf;
+  line-height: 25px;
+}
+
+#cta2 {
+  margin: 5px 0;
+}
+
+.mod {
+  width: 50px;
+}
+
+.mod-title {
+  padding: 10px;
+}
+
+.prices-cards {
+  margin: 100px 0;
+}
+
+.table-price {
+  margin-bottom: 30px;
+}
+
+#ativado {
+  min-height: 470px;
+  background: #2a844d;
+  background: -moz-linear-gradient(left, #2a844d 0%, #2a844d 69%, #2a844d 100%);
+  background: -webkit-gradient(left top,
+      right top,
+      color-stop(0%, #2a844d),
+      color-stop(69%, #2a844d),
+      color-stop(100%, #2a844d));
+  background: -webkit-linear-gradient(left,
+      #2a844d 0%,
+      #2a844d 69%,
+      #2a844d 100%);
+  background: -o-linear-gradient(left, #2a844d 0%, #2a844d 69%, #2a844d 100%);
+  background: -ms-linear-gradient(left, #2a844d 0%, #2a844d 69%, #2a844d 100%);
+  background: linear-gradient(to right, #2a844d 0%, #2a844d 69%, #2a844d 100%);
+  -webkit-box-shadow: 0px 0px 73px 6px rgba(44, 216, 112, 0.1);
+  -moz-box-shadow: 0px 0px 73px 6px rgba(44, 216, 112, 0.1);
+  box-shadow: 0px 0px 73px 6px rgba(44, 216, 112, 0.1);
+}
+
+#ativado img {
+  margin: 20px 0;
+}
+
+#ativado h1 {
+  color: white;
+  font-size: 22px;
+  font-family: "Monda";
+  font-weight: bold;
+}
+
+#ativado h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Monda";
+}
+
+#ativado h3 {
+  color: black;
+  font-family: "Monda";
+  font-weight: bold;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+#ativado p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#ativado button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Monda";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+
+  border: 0;
+  position: relative;
+  outline: 0;
+  text-transform: none;
+}
+
+#desativado img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+  margin: 20px 0;
+}
+
+#desativado h1 {
+  color: #464646;
+  font-size: 22px;
+  font-family: "Monda";
+  font-weight: bold;
+}
+
+#desativado h2 {
+  color: #464646;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Monda";
+}
+
+#desativado h3 {
+  color: #464646;
+  font-family: "Monda";
+  font-weight: bold;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+#desativado p {
+  text-align: center;
+  color: #464646;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#desativado button {
+  background-color: #464646;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Monda";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#desativado hr.white-2 {
+  opacity: 0.2;
+}
+
+/* -------------------BONUS--------------------- */
+#texchek {
+  margin-top: 150px;
+}
+
+#card-selo img {
+  margin-top: 20px;
+  width: 75%;
+}
+
+#card-selo p {
+  font-size: 25px;
+  margin: 60px 0;
+  color: #fff;
+}
+
+#card-selo {
+  min-height: 180px;
+  margin: 10px 0;
+}
+
+.head-bonus {
+  margin-bottom: 60px;
+}
+
+.bonus {
+  margin: 150px 0 50px 0;
+}
+
+.bonus h4 {
+  font-family: "Monda";
+  font-size: 40px;
+  color: #2a844d;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.bonus p {
+  font-family: "Monda";
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.pack {
+  margin: 15px 0;
+}
+
+.pack img {
+  width: 60px;
+}
+
+.pack p {
+  font-family: "Monda";
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.pack-sub p {
+  font-family: "Monda";
+  font-size: 20px;
+  color: #2a844d;
+}
+
+/* -------------------DEPOIMENTOS--------------------- */
+
+.depoimentos-2 {
+  margin: 120px 0 60px;
+}
+
+.depoimentos-2 h4 {
+  font-family: "Monda";
+  font-size: 40px;
+  color: #2a844d;
+  text-transform: uppercase;
+}
+
+.depoimentos-2 p {
+  font-family: "Monda";
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.thumbs {
+  margin-top: 100px;
+}
+
+.video-depoimento {
+  margin-bottom: 30px;
+}
+
+/* -------------------COMPRA-------------------- */
+
+.compra {
+  margin: 60px 0 60px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 60px 0;
+}
+
+.compra h7 {
+  font-family: "Monda", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #2a844d;
+}
+
+.top {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Monda";
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.copy {
+  color: gray;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+/* -------------------FINAL--------------------- */
+
+.selos {
+  width: 450px;
+  float: none;
+}
+
+.final {
+  margin: 60px 0 120px 0;
+}
+
+.pay {
+  width: 340px;
+  float: none;
+}
+
+#pay-1 {
+  padding: 0 0 100px 0;
+}
+
+.compra img {
+  width: 100%;
+}
+
+.final p {
+  font-family: "Monda";
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+#cta3 {
+  margin: 60px 0 35px;
+}
+
+/* -------------------FAQ--------------------- */
+
+.faq {
+  background-color: black;
+}
+
+.bt-faq {
+  margin: 8px 0;
+  text-align: left;
+
+  border: none;
+  color: #cccccc;
+  font-family: "Monda";
+  font-size: 18px;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 1);
+  background: -moz-linear-gradient(left,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 100%);
+  background: -webkit-gradient(left top,
+      right top,
+      color-stop(0%, rgba(0, 0, 0, 1)),
+      color-stop(100%, rgba(20, 20, 20, 1)));
+  background: -webkit-linear-gradient(left,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 100%);
+  background: -o-linear-gradient(left,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 100%);
+  background: -ms-linear-gradient(left,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 100%);
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(20, 20, 20, 1) 100%);
+  background-color: #121212;
+}
+
+.icon-faq {
+  font-size: 28px;
+  font-weight: bold;
+  float: right;
+  transition: 0.4s;
+  color: #2a844d;
+}
+
+.p-faq {
+  margin-top: 20px;
+  display: none;
+}
+
+/* -------------------MEDIA QUERIES--------------------- */
+
+/* Extra Small Devices, Phones (col-xs) */
+@media only screen and (max-width: 480px) {
+  .cta-video {
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    padding: 10px 10px;
+  }
+
+  .selos {
+    width: 100%;
+    float: none;
+  }
+
+  .pay {
+    width: 100%;
+    float: none;
+  }
+
+  .videoWrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 50%;
+    height: 0;
+  }
+
+  .modulos h1 {
+    font-size: 32px;
+  }
+
+  .sub {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+
+  .card-image {
+    padding: 10px;
+  }
+
+  .cards {
+    min-width: 100%;
+  }
+
+  .mod {
+    width: 40px;
+  }
+
+  .cards h3 {
+    font-size: 18px;
+  }
+
+  .cards h2 {
+    font-size: 20px;
+  }
+
+  .compra img {
+    width: 60%;
+  }
+
+  #card-selo img {
+    width: 50%;
+  }
+
+  #card-selo p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  #texchek {
+    margin-top: 10px;
+  }
+
+  .depoimentos-2 h4 {
+    font-size: 25px;
+  }
+
+  .FAQ h4 {
+    font-size: 150%;
+  }
+
+  .bt-faq {
+    font-size: 15px;
+  }
+
+  .compra {
+    margin: 0;
+  }
+
+  .bonus {
+    margin: 100px 0 50px 0;
+  }
+
+  .card-image {
+    min-height: 0px;
+  }
+}
+
+.card-body {
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #797979;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.confirma-2 {
+  color: white;
+  font-family: "Offside";
+  font-size: 14px;
+  padding: 0;
+  margin: 25px;
+}
+
+.headline {
+  font-family: "Monda";
+  font-size: 30px;
+  color: #2a844d;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
+.w3-modal-content {
+  background-color: transparent !important;
+  text-align: center;
+}
+
+.w3-modal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn:focus {
+  outline: 0 !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .col-xs-12 {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .bt-faq {
+    font-size: 15px;
+  }
+
+  .notebook {
+    margin-bottom: -70px !important;
+  }
+
+  #pay-1 {
+    padding: 0 0 50px 0;
+  }
+
+  .blackweek {
+    background: rgba(76, 175, 80, 0.0);
+  }
+
+  #wp {
+    max-width: 100%;
+  }
+
+  .cards {
+    background-color: #080808;
+    border-radius: 10px;
+    /* margin: 4% auto; */
+    padding: 3px 30px;
+    min-height: 350px;
+    min-width: 295px;
+  }
+
+  #card-selo img {
+    width: 200px;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .headline {
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    font-size: 27px;
+  }
+}
